@@ -1,15 +1,17 @@
+import Footer from "./components/Footer"
+import Menu from "./components/Menu"
+import Vitrine from "./components/Vitrine"
 
 
 function App() {
 
   return (
     <>
-      <section>
-        <h1 className="text-4xl text-red-600 font-extralight"> ABYDOZ, la premiere bourse de fret en Afrique</h1>
-      </section>
-
-
+      <Menu />
+      <Vitrine />
+      <Footer />
     </>
+
   )
 }
 
